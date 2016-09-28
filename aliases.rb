@@ -9,6 +9,11 @@ class Aliases < Formula
   version "0.7.7"
   sha256 "6f9d7cf41b1439a01f4e2dcf4731d2f3544930b99155f0a5d0f95d3cb44e2e95"
 
+  devel do
+    url "https://github.com/sebglazebrook/aliases/raw/master/releases/0.8.0-devel/mac/aliases.tar.gz"
+    sha256 "1738da16f6b2ff9472b3bed821334f70e5c1bc523c0fd2cf7e79b9cfd5c4abaa"
+  end
+
   def install
     bin.install "aliases"
   end
