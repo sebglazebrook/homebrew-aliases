@@ -11,7 +11,7 @@ class Aliases < Formula
 
   devel do
     url "https://github.com/sebglazebrook/aliases/raw/master/releases/0.8.0-devel/mac/aliases.tar.gz"
-    sha256 "1738da16f6b2ff9472b3bed821334f70e5c1bc523c0fd2cf7e79b9cfd5c4abaa"
+    sha256 "9f7ddc88d65f2d9e8d73a1478a1e01e4bc49019ed68db35d3aba9fd6ac73fdfc"
   end
 
   def install
