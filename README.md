@@ -5,9 +5,7 @@ This repo is the homebrew formula for the [aliases](https://github.com/sebglazeb
 ## Installation
 
 ```
-brew tap sebglazebrook/aliases
-
-brew install aliases
+brew install sebglazebrook/aliases/aliases
 ```
 
 After install you will be alerted to add a line to your profile to activate the aliases.
