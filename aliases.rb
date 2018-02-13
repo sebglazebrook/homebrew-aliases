@@ -13,7 +13,7 @@ class Aliases < Formula
     bin.install "aliases"
   end
 
-  def caveats; <<-EOS.undent
+  def caveats; <<~EOS.undent
     To activate the alias shims add the following to your profile:
 
       echo 'eval \"$(aliases init --global)\"' >> ~/.bash_profile
